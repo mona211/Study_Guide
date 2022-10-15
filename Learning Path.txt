@@ -1,0 +1,136 @@
+NETWORKING:
+
+FUNDAMENTAL CONCEPTS: MTU, MSS, PATH MTU, ALL HEADERS (IP, ARP, DHCP, HTTP), 
+
+TCP/IP SUITE:  ARP, TYPES OF ARP, ICPM- (PING/TRACEROUTE), DNS, DHCP, SMTP, FTP 
+
+ROUTING: OSPF, BGP,  EIGRP
+
+SWITCHING: 
+
+NAT: SNAT, DNAT, LOOPBACK NAT, REFLEXIVE NAT
+
+VPN: IPSEC (PHASE1,2), IPSEC TUNNEL MODES, SSL HANDHAKE
+
+HTTP Header
+| Verb | Path | HTTP version |
+		Domain
+		Accept
+		Accept-language
+		Accept-charset
+		Accept-encoding(compression type)
+		Connection- close or keep-alive
+		Referrer
+		Return address
+		Expected Size?
+		
+HTTP Response Header: [HTTP version, Status Codes: (1xx: Informational Response, 2xx: Successful, 3xx: Redirection, 4xx: Client Error, 5xx: Server Error), 
+Type of data in response, Type of encoding, Language, Charset]
+
+TOOLS:
+LINUX: dns testing, common network config files, network bonding modes, configuring network bonded interfaces, knowledge of linux firewall (netfilter, 
+iptables (chains, rules, tables), manipulating firewalls on system, handling privileged ports and standard services, protecting system with ipset and
+fail2ban 
+
+NMAP:
+advanced scanning, aggressive scanning, host discovery, OS & version scanning, TCP connect & stealth (SYN) scanning, UDP scanning, output & verbosity,
+inverse TCP flag scanning, firewall detection (ACK probing), firewall evasion, scan timing & performance, Nmap scanning engine, NSE syntax, banner grabbing,
+FTP DNS SMTP HTTP SMB MySQL Enumeration, vulnerability scanning 
+
+TCPDUMP: 
+
+WIRESHARK:
+
+
+
+SECURITY:
+
+IPS POLICIES: LAN TO WAN- (BROWSING, OS & services, malware communication, reconnaisance), WAN TO LAN ( OS & services, WEB, FTP, Mail, database, DNS and reconnaisance)
+
+DOS PROTECTION BY SYN FLOOD,UDP FLOOD,TCP FLOOD,ICMP FLOOD
+
+SPOOF PROTOECTION BY IP SPOOF, MAC SPOOF AND IP-MAC FILTERING
+
+WEB AND APPLICATION protection BY WEB PROXY, HTTPS (SSL) DECRYPTION & INSPECTION, WEB FILTERING BASED ON DOMAINS
+
+WEB SERVER PROTECTION: SlowHTTP protection, Cookie signing, Form hardening, static URL hardening, blocking clients with bad reputation, 
+common threat blocing, antivirus
+
+AUTHENTICATION: Understanding of Token-based, SSO, Session-based, OAuth (Open Authentication), JSON Web tokens based Authentication mechanism 
+mechanism need to be addded
+
+MALWARE & REVERSING: 
+Interesting malware: Conficker, Morris worm. Zeus malware. Stuxnet. Wannacry. CookieMiner. Sunburst. 
+
+Malware features:
+
+Various methods of getting remote code execution. Domain-flux. Fast-Flux. Covert C2 channels. Evasion techniques (e.g. anti-sandbox). Process hollowing.
+Mutexes. Multi-vector and polymorphic attacks. RAT (remote access trojan) features. 
+
+Decompiling/ reversing: 
+
+Obfuscation of code, unique strings (you can use for identifying code). IdaPro, Ghidra.
+
+Static / dynamic analysis:
+
+Describe the differences. Virus total. Reverse.it. Hybrid Analysis.
+
+EXPLOITS:
+
+Three ways to attack - Social, Physical, Network
+
+Social:
+
+Ask the person for access, phishing.
+Cognitive biases - look at how these are exploited.
+Spear phishing.
+Water holing.
+Baiting (dropping CDs or USB drivers and hoping people use them).
+Tailgating.
+
+Physical:
+
+Get hard drive access, will it be encrypted?
+Boot from linux.
+Brute force password.
+Keyloggers.
+Frequency jamming (bluetooth/wifi).
+Covert listening devices.
+Hidden cameras.
+Disk encryption.
+Trusted Platform Module.
+Spying via unintentional radio or electrical signals, sounds, and vibrations (TEMPEST - NSA).
+
+Network:
+Nmap.
+Find CVEs for any services running.
+Interception attacks.
+Getting unsecured info over the network.
+
+Remote Control:
+
+Remote code execution (RCE) and privilege. Bind shell (opens port and waits for attacker). Reverse shell (connects to port on attackers C2 server).
+
+Spoofing
+
+Email spoofing. IP address spoofing. MAC spoofing. Biometric spoofing. ARP spoofing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
